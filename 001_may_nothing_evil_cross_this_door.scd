@@ -8,23 +8,23 @@
  var key = 4;
  var tempo = 30/60;
  Pbind(
-	\note, Pser(soprano, soprano.size),
-    \dur, Pser(timingOne, inf),
+   \note, Pser(soprano, soprano.size),
+   \dur, Pser(timingOne, inf),
    \ctranspose, key;
  ).play(TempoClock(tempo));
 Pbind(
-	\note, Pser(alto, alto.size),
-    \dur, Pser(timingOne, inf),
+   \note, Pser(alto, alto.size),
+   \dur, Pser(timingOne, inf),
    \ctranspose, key;
  ).play(TempoClock(tempo));
 Pbind(
-	\note, Pser(tenor, tenor.size),
-    \dur, Pser(timingOne, inf),
+   \note, Pser(tenor, tenor.size),
+   \dur, Pser(timingOne, inf),
    \ctranspose, key;
  ).play(TempoClock(tempo));
 Pbind(
-	\note, Pser(bass, bass.size),
-    \dur, Pser(timingOne, inf),
+   \note, Pser(bass, bass.size),
+   \dur, Pser(timingOne, inf),
    \ctranspose, key;
  ).play(TempoClock(tempo));
 )
